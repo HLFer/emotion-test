@@ -1,0 +1,20 @@
+CREATE DATABASE emotion_test;
+USE emotion_test;
+
+CREATE TABLE aluno(
+	id INTEGER AUTO_INCREMENT NOT NULL,
+	cpf VARCHAR(11) NOT NULL,
+	nome VARCHAR(30) NOT NULL,
+	sexo CHAR(1) NOT NULL,
+	dt_nascimento TIMESTAMP NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE telefone(
+	id INTEGER AUTO_INCREMENT NOT NULL,
+	id_aluno INTEGER NOT NULL,
+	numero VARCHAR(15) NOT NULL,
+	flag_principal BIT NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(id_aluno) REFERENCES aluno(id)
+);
