@@ -19,7 +19,7 @@ Qual quer dúvida estou disponível no e-mail <marcio@emotiondigital.com.br> ou 
 
 ## Deploy
 
-Para deploy do código, vocês poderam criar um Branch no repositório existente ou me enviarem os arquivos zipados via Skype ou Email.
+Para deploy do código, vocês poderam criar uma Branch no repositório existente ou me enviarem os arquivos zipados via Skype ou Email.
 
 No mais, boa sorte. :) 
 
