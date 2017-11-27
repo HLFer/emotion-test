@@ -7,11 +7,11 @@
 
 ## Instruções
 
-Temos dois arquivos para ingestão em csv, uma base externa de Alunos e outra de Telefones, você deverá desenvolver o código para ingerir as duas bases e validar os dados ingeridos no MySQL. Algumas funções estão prontas e outras incompletas, cabe a você finalizar a implementação. Melhorias no código também podem ser implementadas.
+Possuimos atualmente um sistema que faz controle de alunos, extraimos as informações de uma base terceira mas alguns alunos não foram extraídos, para isso o cliente nos enviou dois arquvios, um de Alunos e outro de Telefones que não foram econtrados. Você deverá desenvolver o código para ingerir as duas bases e validar os dados ingeridos no MySQL. Algumas funções estão prontas e outras incompletas, cabe a você finalizar a implementação. Melhorias no código também podem ser implementadas.
 
 ## Testes 
 
-Para testar o programa inicial basta efetuar a chamada ao main.php
+Para testar o programa inicial basta efetuar a chamada ao main.php.
 
 ## Contato
 
@@ -26,4 +26,4 @@ No mais, boa sorte. :)
 
 ## Considerações
 
-Este programa se trata de um teste simples, não faz parte da nossa solução. 
+Este programa se trata de um teste, não desfrutamos da mesma metodologia e arquitura em nossas soluções. :)
