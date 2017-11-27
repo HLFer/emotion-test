@@ -15,7 +15,7 @@ Para testar o programa inicial basta efetuar a chamada ao main.php
 
 ## Contato
 
-Qual quer dúvida estou disponível no e-mail <marcio@emotiondigital.com.br> ou no skype <marcio1junior>.
+Qual quer dúvida estou disponível no e-mail <marcio@emotiondigital.com.br> ou no skype marcio1junior.
 
 ## Deploy
 
