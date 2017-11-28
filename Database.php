@@ -19,7 +19,7 @@ Class Database
 
 	public function insertAluno($data)
 	{
-		$sql = "INSERT INTO aluno (id, cpf, nome, sexo, dt_nascimento) VALUES (null, '{$data['cpf']}', '{$data['nome']}', '{$data['sexo']}', DATE('{$data['dt_nascimento']}'))";
+		$sql = "INSERT INTO aluno (id, cpf, nome, sexo, dt_nascimento) VALUES (null, '{$data['cpf']}', '{$data['nome']}', '{$data['sexo']}', DATE('{$data['data_nascimento']}'))";
 	
 		try 
 		{
@@ -41,7 +41,7 @@ Class Database
 		$sql = "SELECT id FROM aluno WHERE cpf = '{$cpf}'";
 	
 		try 
-		{ }
+		{}
 		catch (Exception $ex)
 		{
 			echo($ex->getMessage()); 

@@ -6,7 +6,7 @@ CREATE TABLE aluno(
 	cpf VARCHAR(11) NOT NULL,
 	nome VARCHAR(30) NOT NULL,
 	sexo CHAR(1) NOT NULL,
-	dt_nascimento TIMESTAMP NOT NULL,
+	dt_nascimento DATE NOT NULL,
 	PRIMARY KEY(id)
 );
 
