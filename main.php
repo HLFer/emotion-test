@@ -70,6 +70,7 @@ function importarTelefones($arquivo)
 		$id_aluno = $db->buscaCPF($data['cpf']);
 
 		if($id_aluno){
+			//Chamada da função para inserir na tabela telefone os dados de id, id_aluno(estrangeiro), numero e flag_principal
 			$db->insertTelefone($id_aluno, $data['telefone']);
 		}
 	}
